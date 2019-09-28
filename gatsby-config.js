@@ -1,10 +1,33 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    // Used for the site title and SEO
+    title: `RPorter.Tech`,
+    // Used to provide alt text for your avatar
+    author: `R. Anthony Porter`,
+    // Used for SEO
+    description: `My site description...`,
+    // Used for social links in the root footer
+    social: [
+      {
+        name: `Twitter`,
+        url: `https://twitter.com/rahsheen`,
+      },
+      {
+        name: `GitHub`,
+        url: `https://github.com/rahsheen`,
+      },
+    ],
   },
   plugins: [
+    {
+      resolve: `gatsby-theme-blog`,
+      options: {
+        basePath: `/blog`,
+      },
+    },
+    {
+      resolve: 'gatsby-theme-netlify-cms'
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
