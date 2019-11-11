@@ -5,7 +5,7 @@ import SiteHeader from "../../components/header"
 import "../../pages/mystyles.scss"
 
 export default ({ children, ...props }) => (
-  <Styled.root>
+  <>
     <SiteHeader siteTitle="FooBar" />
     <BlogHeader {...props} />
     <div>
@@ -20,5 +20,5 @@ export default ({ children, ...props }) => (
         {children}
       </div>
     </div>
-  </Styled.root>
+  </>
 )

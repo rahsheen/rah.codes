@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import "./mystyles.scss"
 
 const IndexPage = () => (
   <Layout>
@@ -22,12 +21,7 @@ const IndexPage = () => (
       <div className="container">
         <h1 className="title">About</h1>
         <p>
-          Web developer with more than 4 years of well-rounded experience with a
-          degree in the field of Computer Science, extensive knowledge of modern
-          Web techniques and love for Coffee. Looking for an opportunity to work
-          and upgrade, as well as being involved in an organization that
-          believes in gaining a competitive edge and giving back to the
-          community.
+          Fullstack developer that hasn't reached his final form yet.
         </p>
       </div>
     </section>

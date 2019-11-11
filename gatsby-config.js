@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // Used for the site title and SEO
-    title: `RPorter.Tech`,
+    title: `Rah.Codes`,
     // Used to provide alt text for your avatar
     author: `R. Anthony Porter`,
     // Used for SEO

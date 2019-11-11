@@ -2,5 +2,7 @@
 
 // If need, change your variables before importing Bulma
 $title-color: #ff0000;
+// Add a serif family
+$family-serif: "Montserrat", "Georgia", serif;
 
 @import "~bulma/bulma.sass";
