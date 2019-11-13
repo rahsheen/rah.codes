@@ -23,6 +23,7 @@ module.exports = {
       resolve: `gatsby-theme-blog`,
       options: {
         basePath: `/blog`,
+        contentPath: `content/blog`
       },
     },
     `gatsby-plugin-react-helmet`,
