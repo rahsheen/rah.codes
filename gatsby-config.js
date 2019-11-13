@@ -25,10 +25,8 @@ module.exports = {
         basePath: `/blog`,
       },
     },
-    {
-      resolve: 'gatsby-theme-netlify-cms'
-    },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
