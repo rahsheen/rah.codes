@@ -27,7 +27,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        publish_mode: `editorial_workflow`
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
