@@ -5,7 +5,7 @@ description: Small trick to adding Typescript types to React Hooks
 ---
 
 
-```
+```js
 const useStuff = () => {
   const [stuff, setStuff] = useState();
   
