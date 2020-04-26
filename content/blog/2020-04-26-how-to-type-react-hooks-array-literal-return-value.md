@@ -9,5 +9,6 @@ description: Small trick to adding Typescript types to React Hooks
 const useStuff = () => {
   const [stuff, setStuff] = useState();   
   // some magic happens
-  return [stuff, setStuff, moreStuff];}
+  return [stuff, setStuff, moreStuff];
+}
 ```
